@@ -32,12 +32,8 @@ console.log("")
 console.log("%cRemove first four and last two elements:", "font-style: italic")
 
 
-list.pop()
-list.pop()
-list.shift()
-list.shift()
-list.shift()
-list.shift()
+list.splice(-2, 2);
+list.splice(0, 4);
 
 console.log(list)
 
